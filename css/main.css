@@ -6504,6 +6504,14 @@ label.panel-block {
   background-color: whitesmoke;
   padding: 3rem 1.5rem 6rem; }
 
+body {
+  background: whitesmoke; }
+
+#header .tabs li.is-active {
+  background-color: whitesmoke;
+  color: #008753;
+  border-radius: 5px 5px 0px 0px; }
+
 #top-profiles a.card {
   display: block; }
 
@@ -6519,3 +6527,6 @@ label.panel-block {
 
 #header .hero-body figure {
   display: inline; }
+
+.table {
+  background-color: transparent; }

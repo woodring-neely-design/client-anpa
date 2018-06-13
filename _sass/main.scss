@@ -14,6 +14,20 @@ $primary: $nigerian-green;
 // 4. Import the rest of Bulma
 @import "../node_modules/bulma/bulma";
 
+body {
+  background: $light;
+}
+
+#header {
+  .tabs {
+    li.is-active {
+      background-color: $light;
+      color: $primary;
+      border-radius: 5px 5px 0px 0px;
+    }
+  }
+}
+
 #top-profiles {
   a.card {
     display: block;
@@ -42,4 +56,8 @@ $primary: $nigerian-green;
       display: inline;
     }
   }
+}
+
+.table {
+  background-color: transparent;
 }

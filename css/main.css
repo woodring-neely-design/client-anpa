@@ -6504,8 +6504,18 @@ label.panel-block {
   background-color: whitesmoke;
   padding: 3rem 1.5rem 6rem; }
 
+#top-profiles a.card {
+  display: block; }
+
 #news article {
   padding: 1rem; }
   #news article time {
     font-weight: bold;
     display: block; }
+
+#header .hero-body > div {
+  display: flex;
+  flex-direction: row; }
+
+#header .hero-body figure {
+  display: inline; }

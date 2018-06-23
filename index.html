@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ANPA Tennessee</title>
+    <link rel="stylesheet" href="./fontawesome/web-fonts-with-css/css/fontawesome-all.min.css">
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
@@ -43,10 +44,15 @@
               <li><a href="about.html">About</a></li>
               <li><a href="directory.html">Our Members</a></li>
               <li><a href="calendar.html">Events</a></li>
-              <li><a href="https://anpa.org"/>National Site</a></li>
               <li><a href="contact.html">Contact Us</a></li>
             </ul>
           </div>
+          <a href="https://anpa.org"/>
+            <b> ANPA National Site</b>
+            <span class="icon">
+              <i class="fas fa-chevron-right"></i>
+            </span>
+          </a>
         </nav>
       </div>
     </section>
@@ -137,27 +143,19 @@
 
         <div class="column is-8">
           <div class="notification is-primary has-text-white has-text-centered">
-            <span class="title is-3">Welcome to ANPA TN</span>
-            <div id="news">
-              <span class="title is-4">
-                News
+            <div class="title is-3">Welcome to ANPA TN</div>
+            <span class="title is-4">
+              News
+            </span>
+
+            <div class="is-loading" id="news" style="min-height: 6rem"></div>
+            <a href="calendar.html" style="text-decoration: none; font-weight: bold; font-size: 18pt;">
+              See More
+
+              <span class="icon">
+                <i class="fas fa-chevron-right"></i>
               </span>
-
-              <article>
-                <time>1/09/2018</time>
-                Velit quo similique utinam. Ut dui laoreet hac efficiendi integre duo fusce scelerisque numquam scelerisque ipsum debet eu. Dissentiet enim error curabitur mentitum molestie noluisse aut. Id platonem tale leo probatus numquam prima scriptorem orci adipiscing mutat prima intellegat? Augue ei a et ad sem quodsi vidisse sed.
-              </article>
-
-              <article>
-                <time>1/09/2018</time>
-                Velit quo similique utinam. Ut dui laoreet hac efficiendi integre duo fusce scelerisque numquam scelerisque ipsum debet eu. Dissentiet enim error curabitur mentitum molestie noluisse aut. Id platonem tale leo probatus numquam prima scriptorem orci adipiscing mutat prima intellegat? Augue ei a et ad sem quodsi vidisse sed.
-              </article>
-
-              <article>
-                <time>1/09/2018</time>
-                Velit quo similique utinam. Ut dui laoreet hac efficiendi integre duo fusce scelerisque numquam scelerisque ipsum debet eu. Dissentiet enim error curabitur mentitum molestie noluisse aut. Id platonem tale leo probatus numquam prima scriptorem orci adipiscing mutat prima intellegat? Augue ei a et ad sem quodsi vidisse sed.
-              </article>
-            </div>
+            </a>
           </div>
         </div>
       </div>
@@ -178,7 +176,7 @@
       <div class="hero-body">
         <div class="container">
           <h1 class="title">
-    If you need a doctor, have a look at any of our <a>highly qualified Nigerian physicians</a>.
+            If you need a doctor, have a look at any of our <a>highly qualified Nigerian physicians</a>.
           </h1>
         </div>
       </div>
@@ -204,5 +202,9 @@
       </div>
     </section>
 
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./inc/jquery.rss.min.js"></script>
+    <script src="./inc/moment.js"></script>
+    <script src="./lib/news.js"></script>
   </body>
 </html>

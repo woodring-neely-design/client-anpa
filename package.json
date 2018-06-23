@@ -28,5 +28,8 @@
     "js-build": "babel _javascript --out-dir lib",
     "js-watch": "npm run js-build -- --watch",
     "start": "npm run css-watch | npm run js-watch"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
   }
 }

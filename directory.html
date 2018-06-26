@@ -43,7 +43,6 @@
               <li><a href="index.html">Home</a></li>
               <li><a href="about.html">About</a></li>
               <li class="is-active"><a href="directory.html">Our Members</a></li>
-              <li><a href="calendar.html">Events</a></li>
               <li><a href="contact.html">Contact Us</a></li>
             </ul>
           </div>
@@ -58,13 +57,13 @@
     </section>
 
     <section class="section">
-      <div class="columns">
-        <div class="column is-5">
-        </div>
-
-        <div class="column is-7">
-        </div>
+      <div id="members" class="is-loading">
       </div>
     </section>
+
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./inc/moment.js"></script>
+    <script src="./inc/js-yaml.min.js"></script>
+    <script src="./lib/members.js"></script>
   </body>
 </html>

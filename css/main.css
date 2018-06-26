@@ -6515,6 +6515,9 @@ body {
 #top-profiles a.card {
   display: block; }
 
+#members .card {
+  display: block; }
+
 #news article {
   padding: 1rem; }
   #news article time {

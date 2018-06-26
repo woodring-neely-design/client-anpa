@@ -27,7 +27,7 @@ $(document).ready(() => {
     let rowNum = 0 ;
     let row;
 
-    for (let member of data.members.slice(0, 4)) {
+    for (let member of data.members) {
       if (rowNum == 0) {
         row = document.createElement('div');
         row.classList.add('columns');

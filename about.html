@@ -9,10 +9,26 @@
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-    <section class="hero is-primary is-small" id="header">
 
+    <section class="hero is-primary is-small" id="header">
       <!-- Hero head: will stick at the top -->
       <div class="hero-head">
+        <nav class="navbar">
+          <div class="navbar-brand">
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
+          </div>
+
+          <div class="navbar-menu">
+            <a class="navbar-item" href="index.html">Home</a>
+            <a class="navbar-item" href="about.html">About</a>
+            <a class="navbar-item" href="directory.html">Our Members</a>
+            <a class="navbar-item" href="contact.html">Contact</a>
+          </div>
+        </nav>
       </div>
 
       <!-- Hero content: will be in the middle -->
@@ -37,7 +53,7 @@
 
       <!-- Hero footer: will stick at the bottom -->
       <div class="hero-foot">
-        <nav class="tabs">
+        <nav class="tabs" id="desktop-nav">
           <div class="container">
             <ul>
               <li><a href="index.html">Home</a></li>
@@ -53,6 +69,7 @@
             </span>
           </a>
         </nav>
+
       </div>
     </section>
 
@@ -71,11 +88,11 @@
             About ANPA
           </h1>
           <p>
-THE ASSOCIATION OF NIGERIAN PHYSICIANS IN THE AMERICAS (ANPA), was incorporated in 1995 for educational, scientific and charitable purposes as a tax-exempt non-profit organization under Section 501(c) (3) of the Internal Revenue Code.
+          THE ASSOCIATION OF NIGERIAN PHYSICIANS IN THE AMERICAS (ANPA), was incorporated in 1995 for educational, scientific and charitable purposes as a tax-exempt non-profit organization under Section 501(c) (3) of the Internal Revenue Code.
           </p>
 
           <p>
-ANPA represents the professional interests of 4,000 plus physicians, dentists and allied health professionals of Nigerian birth, ethnicity or empathy in the United States, Canada and the Caribbean providing a platform for medical and scientific dialogue, on issues of health within North America, the Caribbean, and Africa, pertinent to persons of descent from the Nigerian Diaspora.
+          ANPA represents the professional interests of 4,000 plus physicians, dentists and allied health professionals of Nigerian birth, ethnicity or empathy in the United States, Canada and the Caribbean providing a platform for medical and scientific dialogue, on issues of health within North America, the Caribbean, and Africa, pertinent to persons of descent from the Nigerian Diaspora.
           </p>
         </div>
       </div>
@@ -95,4 +112,7 @@ ANPA represents the professional interests of 4,000 plus physicians, dentists an
     </section>
 
   </body>
+
+  <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="./lib/main.js"/></script>
 </html>

@@ -1,0 +1,44 @@
+members:
+  - name: Dr. Chine Logan
+    image: ./img/people/chine-logan.png
+    speciality: Neurosurgery
+    office: Chairman
+
+  - name: Dr. Nkem Ezeamama
+    speciality: Emergency Medicine
+    image: ./img/people/nkem.png
+    office: Treasurer
+
+  - name: Dr. Ife Okusanya
+    image: ./img/people/ife.jpg
+    speciality: Cardiology
+    office: Secretary
+
+  - name: Dr. Alex Badru
+    image: ./img/people/alex-badru.jpg
+    speciality: Internal Medicine
+    office: Ex Officio
+
+  - name: Susanna Awoyode
+  - name: Sola Oguntolu
+  - name: Oyedotun Oyewole
+  - name: Taiwo Muinat
+  - name: John Nwofia 
+  - name: Fredrick Junard
+  - name: Jide Bamigboye
+  - name: Ifeoma Ogbonna
+  - name: Muktar Aliyu 
+  - name: Dapo Omitowoju
+  - name: Drs Anthony and Deka Efobi
+  - name: Kehinde Carew
+  - name: Celia Ezidiegwu
+  - name: Clement Aluyi
+  - name: Abiodun Adefurin
+  - name: David Olalekan
+  - name: Samuel Okpaku 
+  - name: Segun Kehinde 
+  - name: Afam Ikejiani
+  - name: Olamide Zaka
+  - name: Sade Ademosu 
+  - name: Ayodeji Oso
+  - name: Flora Ukoli

@@ -9,10 +9,26 @@
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-    <section class="hero is-primary is-small" id="header">
 
+    <section class="hero is-primary is-small" id="header">
       <!-- Hero head: will stick at the top -->
       <div class="hero-head">
+        <nav class="navbar">
+          <div class="navbar-brand">
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
+          </div>
+
+          <div class="navbar-menu">
+            <a class="navbar-item" href="index.html">Home</a>
+            <a class="navbar-item" href="about.html">About</a>
+            <a class="navbar-item" href="directory.html">Our Members</a>
+            <a class="navbar-item" href="contact.html">Contact</a>
+          </div>
+        </nav>
       </div>
 
       <!-- Hero content: will be in the middle -->
@@ -37,7 +53,7 @@
 
       <!-- Hero footer: will stick at the bottom -->
       <div class="hero-foot">
-        <nav class="tabs">
+        <nav class="tabs" id="desktop-nav">
           <div class="container">
             <ul>
               <li><a href="index.html">Home</a></li>
@@ -53,9 +69,9 @@
             </span>
           </a>
         </nav>
+
       </div>
     </section>
-
 
     <section class="hero is-light">
       <div class="hero-body">
@@ -102,4 +118,7 @@
     </section>
 
   </body>
+ 
+  <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="./lib/main.js"></script> 
 </html>

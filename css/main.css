@@ -6512,11 +6512,22 @@ body {
   color: #008753;
   border-radius: 5px 5px 0px 0px; }
 
-#top-profiles a.card {
-  display: block; }
+#top-profiles {
+  padding-bottom: 1rem;
+  padding-top: 1rem; }
+  #top-profiles a.card {
+    display: block; }
 
-#members .card {
-  display: block; }
+#members {
+  margin: auto; }
+  #members .columns {
+    margin: auto; }
+    #members .columns .column:first-child {
+      padding-left: 0px; }
+    #members .columns .column:last-child {
+      padding-right: 0px; }
+  #members .card {
+    display: block; }
 
 #news article {
   padding: 1rem; }
@@ -6555,3 +6566,25 @@ body {
     width: 5em;
     height: 5em;
     border-width: 0.25em; }
+
+#social {
+  padding-top: 1rem; }
+  #social .columns .column:first-child {
+    overflow: hidden; }
+  #social .notification {
+    min-height: 500px; }
+
+@media screen and (max-width: 768px) {
+  #header img {
+    width: 50% !important;
+    margin: auto !important; }
+  #header .hero-body > div {
+    display: block !important; } }
+
+@media screen and (max-width: 1023px) {
+  #desktop-nav {
+    display: none; } }
+
+@media screen and (min-width: 1024px) {
+  .navbar {
+    display: none; } }

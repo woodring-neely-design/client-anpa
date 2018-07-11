@@ -26,16 +26,39 @@ body {
       border-radius: 5px 5px 0px 0px;
     }
   }
+
 }
+
 
 #top-profiles {
   a.card {
     display: block;
   }
+
+  padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 
-#members .card {
-  display: block;
+
+#members {
+  margin: auto;
+
+  .columns {
+    margin: auto;
+
+    .column:first-child {
+      padding-left: 0px;
+    }
+
+    .column:last-child {
+      padding-right: 0px;
+    }
+  }
+
+  .card {
+    display: block;
+    //max-width: 240px;
+  }
 }
 
 #news {
@@ -67,18 +90,57 @@ body {
 }
 
 .element {
-    &.is-loading {
-        position: relative;
-        pointer-events: none;
-        opacity: 0.5;
-        &:after {
-            @include loader;
-            position: absolute;
-            top: calc(50% - 2.5em);
-            left: calc(50% - 2.5em);
-            width: 5em;
-            height: 5em;
-            border-width: 0.25em;
-        }
+  &.is-loading {
+    position: relative;
+    pointer-events: none;
+    opacity: 0.5;
+
+    &:after {
+      @include loader;
+      position: absolute;
+      top: calc(50% - 2.5em);
+      left: calc(50% - 2.5em);
+      width: 5em;
+      height: 5em;
+      border-width: 0.25em;
     }
+  }
+}
+
+#social {
+  .columns {
+    .column:first-child {
+      overflow: hidden;
+    }
+  }
+
+  .notification {
+    min-height: 500px;
+  }
+
+  padding-top: 1rem;
+}
+
+@include mobile {
+  #header {
+    img {
+      width: 50% !important; 
+      margin: auto !important;
+    }
+  }
+
+  #header .hero-body > div {
+    display: block !important;
+  }
+}
+
+@include touch {
+  #desktop-nav {
+    display: none;
+  }
+}
+@include desktop {
+  .navbar {
+    display: none;
+  }
 }

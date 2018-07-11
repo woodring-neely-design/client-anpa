@@ -12,6 +12,22 @@
     <section class="hero is-primary is-small" id="header">
       <!-- Hero head: will stick at the top -->
       <div class="hero-head">
+        <nav class="navbar">
+          <div class="navbar-brand">
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
+          </div>
+
+          <div class="navbar-menu">
+            <a class="navbar-item" href="index.html">Home</a>
+            <a class="navbar-item" href="about.html">About</a>
+            <a class="navbar-item" href="directory.html">Our Members</a>
+            <a class="navbar-item" href="contact.html">Contact</a>
+          </div>
+        </nav>
       </div>
 
       <!-- Hero content: will be in the middle -->
@@ -36,7 +52,7 @@
 
       <!-- Hero footer: will stick at the bottom -->
       <div class="hero-foot">
-        <nav class="tabs">
+        <nav class="tabs" id="desktop-nav">
           <div class="container">
             <ul>
               <li class="is-active"><a href="index.html">Home</a></li>
@@ -52,11 +68,12 @@
             </span>
           </a>
         </nav>
+
       </div>
     </section>
 
     <section id="top-profiles" class="section">
-      <div id="members" class="columns"></div>
+      <div id="members"></div>
     </section>
 
     <section id="social" class="section">
@@ -68,10 +85,7 @@
 
         <div class="column is-8">
           <div class="notification is-primary has-text-white has-text-centered">
-            <div class="title is-3">Welcome to ANPA TN</div>
-            <span class="title is-4">
-              News
-            </span>
+            <span class="title is-2">News</span>
 
             <div class="is-loading" id="news" style="min-height: 6rem">
               <article>
@@ -85,13 +99,13 @@
               </article>
             </div>
             <!--
-            <a href="calendar.html" style="text-decoration: none; font-weight: bold; font-size: 18pt;">
+              <a href="calendar.html" style="text-decoration: none; font-weight: bold; font-size: 18pt;">
               See More
 
               <span class="icon">
-                <i class="fas fa-chevron-right"></i>
+              <i class="fas fa-chevron-right"></i>
               </span>
-            </a>
+              </a>
             -->
           </div>
         </div>
@@ -153,7 +167,6 @@
     <script src="./node_modules/jquery/dist/jquery.min.js"></script>
     <script src="./inc/moment.js"></script>
     <script src="./inc/js-yaml.min.js"></script>
-    <script src="./lib/news.js"></script>
     <script src="./lib/main.js"></script>
   </body>
 </html>
